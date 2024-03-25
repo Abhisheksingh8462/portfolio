@@ -72,6 +72,8 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import spring from '/public/svg/skills/spring.svg';
+
 
 
 export const skillsImage = (skill) => {
@@ -81,6 +83,8 @@ export const skillsImage = (skill) => {
       return gcp;
     case 'html':
       return html;
+    case 'spring':
+      return spring;
     case 'photoshop':
       return photoshop;
     case 'docker':
