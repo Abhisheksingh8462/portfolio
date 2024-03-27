@@ -43,12 +43,15 @@ function ContactForm() {
 
       if (res.status === 200) {
         toast.success('Message sent successfully!');
+        console.log("hello");
         setInput({
           name: '',
           email: '',
           message: '',
         });
-      };
+      }else{
+        console.log("jfss");
+            }
     } catch (error) {
       toast.error(error?.text || error);
     };
